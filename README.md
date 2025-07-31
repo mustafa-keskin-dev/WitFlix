@@ -1,2 +1,2 @@
-# witflix
-HTML/CSS film temalı proje
+# Witflix
+HTML/CSS Film Temalı Proje
