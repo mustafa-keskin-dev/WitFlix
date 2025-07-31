@@ -19,6 +19,7 @@ header {
 }
 header .logo {
   height: 25px;
+  cursor: pointer;
 }
 .nav-links {
   display: flex;
@@ -54,4 +55,40 @@ header .logo {
   font-size: 14px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+#user-control-panel img {
+  cursor: pointer;
+}
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('images/bg.jpg') no-repeat center center/cover;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    height: 350px;
+}
+.checked {
+  color: orange;
+}
+.fa-star-half-full {
+  color: orange;
+}
+.aciklama {
+  width: 500px;
+}
+.watch-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.watch-button:hover {
+  transform: scale(1.05);
+}
+.breaking-info li {
+  list-style-type:square;
 }
