@@ -6,6 +6,10 @@ html body {
   padding: 0;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -91,4 +95,62 @@ main {
 }
 .breaking-info li {
   list-style-type:square;
+}
+.movies-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+.movies-header a {
+  text-decoration: none;
+  color: gray;
+}
+.movies-header a:hover {
+  color:white;
+  transition: 0.5s;
+}
+.movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movies .item {
+  width: 32%;
+  position: relative;
+}
+.movies .item img {
+  width: 100%;
+  opacity: 0.6;
+
+}
+.movies .movie-item-info {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-item-info span {
+  border: 1px solid white;
+  border-radius: 5px; 
+  padding: 2px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.movie-item-info a {
+  background-color:red;
+  padding: 2px 5px;
+  border-radius: 0.4rem;
+  transition: 0.5s;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
+.movie-item-info a:hover {
+  background-color: black;
+  color: white;
 }
