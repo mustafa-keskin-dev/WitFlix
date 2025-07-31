@@ -1,18 +1,24 @@
-body {
+html body {
   background-color: #000;
-  color: #fff;
+  color:white;
   font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 50px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 header {
+  margin: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 0;
 }
 header .logo {
-  width: 300px;
-  height: 75px;
+  height: 25px;
 }
 .nav-links {
   display: flex;
