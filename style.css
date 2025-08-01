@@ -117,13 +117,12 @@ main {
 }
 .movies .item {
   width: 32%;
+  height: 180px;
   position: relative;
 }
 .movies .item img {
   width: 100%;
   opacity: 0.6;
-  height: auto;
-
 }
 .movies .movie-item-info {
   position: absolute;
@@ -141,6 +140,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-left: 10px;
+  cursor: pointer;
 }
 .movie-item-info a {
   background-color:red;
