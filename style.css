@@ -127,7 +127,7 @@ main {
   height: 180px;
   position: relative;
 }
-.item img:hover {
+.item:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
